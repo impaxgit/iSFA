@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/procategory" />
+
+        <TextView
+            android:id="@+id/tv_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:typeface="serif" />
+
+    </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/procost" />
+
+            <TextView
+                android:id="@+id/tv_product_cost"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proprice" />
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/propackaging" />
+
+            <TextView
+                android:id="@+id/tv_product_packaging"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/probarcode" />
+
+            <TextView
+                android:id="@+id/tv_product_barcode"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="serif"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:typeface="serif" />
+
+        </TableRow>
+
+</TableLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/end_txt_movementMode"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/movementMode"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/end_trip_movement_mode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/end_txt_movementMode"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="serif"
+        android:hint="@string/movementMode"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/end_txt_startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/startTime"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/end_trip_starttime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_startTime"
+        android:layout_alignTop="@+id/end_txt_movementMode"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="serif"
+        android:hint="@string/StartTime"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/end_txt_OdometerStart"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="97dp"
+        android:text="@string/OdometerStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/end_trip_odostart"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_OdometerStart"
+        android:layout_alignTop="@+id/end_txt_movementMode"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="serif"
+        android:hint="@string/OdometerStart"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="138dp"
+        android:text="@string/comments"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/end_trip_comment_ini"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="serif"
+        android:hint="@string/comment"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="170dp"
+        android:text="@string/reNo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/end_trip_reg_number"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="serif"
+        android:hint="@string/reNo"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="218dp"
+        android:layout_toEndOf="@+id/end_txt_startTime"
+        android:text="@string/end"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/end_txt_Odometerend"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="259dp"
+        android:text="@string/OdometerEnd"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/end_trip_odo_end"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/end_txt_OdometerStart"
+        android:layout_alignTop="@+id/end_txt_movementMode"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="239dp"
+        android:fontFamily="monospace"
+        android:hint="@string/odometerEnd"
+        android:inputType="number"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="341dp"
+        android:text="@string/comments"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/end_trip_comment_lst"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/end_txt_movementMode"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="335dp"
+        android:fontFamily="monospace"
+        android:hint="@string/comment"
+        android:inputType="textMultiLine"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="monospace" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="27dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/end_btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:text="@string/save"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/end_btn_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:text="@string/close"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

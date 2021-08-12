@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_product_code_take_order"
+        android:layout_width="93dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_product_name_take_order"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_product_code_take_order"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:id="@+id/txt_product_unit_price"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/txt_product_name_take_order"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|end"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/txt_product_number_req"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_product_code_take_order"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="83dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|end"
+        android:inputType="number"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txt_product_order_line_amount"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-83dp"
+        android:layout_toEndOf="@+id/txt_product_number_req"
+        android:background="@color/place_autocomplete_prediction_secondary_text"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|end"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:typeface="sans" />
+
+
+</RelativeLayout>

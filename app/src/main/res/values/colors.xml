@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="columns">#888888</color>
+    <color name="colorPrimary">#191a19</color>
+    <color name="colorPrimaryDark">#A7DDD5</color>
+    <color name="colorAccent">#ec343534</color>
+    <color name="silver_color">#C0C0C0</color>
+    <color name="red">#7b0303</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#363535</color>
+    <color name="impax_red">#8f0611</color>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:scrollbars="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:id="@+id/asset_txtNo"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/asserName"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/asset_txtName"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="@string/asserName" />
+
+        <RelativeLayout
+            android:id="@+id/relative_assets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/onsite" />
+
+            <TextView
+                android:id="@+id/asset_txtonsite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:text="@string/onsite" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/condition" />
+
+            <TextView
+                android:id="@+id/asset_txtcondition"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/condition" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/reason" />
+
+            <TextView
+                android:id="@+id/asset_reason"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/reason" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="90dp"
+                android:text="@string/nextservicedate" />
+
+            <TextView
+                android:id="@+id/asset_nextservicedate"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="90dp"
+                android:text="@string/nextservicedate" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="120dp"
+                android:text="@string/comments" />
+
+            <TextView
+                android:id="@+id/asset_comments"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="120dp"
+                android:text="@string/comments" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

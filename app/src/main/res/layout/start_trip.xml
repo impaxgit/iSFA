@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/startTrip_txt_ModeofMovement"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/movementMode"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Spinner
+        android:id="@+id/startTrip_sp_modeofMovement"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:entries="@array/movement_arrays"
+        android:prompt="@string/choose_movement_mode"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/startTrip__txt_coments"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/startTrip_sp_modeofMovement"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="5dp"
+        android:ems="10"
+        android:hint="@string/comment"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/startTrip_details_txt_coments"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/comments"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/startTrip_txt_OdometerStart"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="187dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/OdometerStart"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+
+    <EditText
+        android:id="@+id/startTrip_details_txt_Odometerstart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/startTrip_txt_OdometerStart"
+        android:layout_alignStart="@+id/startTrip_sp_modeofMovement"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-224dp"
+        android:ems="10"
+        android:hint="@string/ordermeter_pl"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/startTrip_txt_RegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/startTrip_txt_OdometerStart"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="249dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/reNo"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/startTrip_details_txt_RegNo"
+        android:layout_width="227dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@id/startTrip_details_txt_Odometerstart"
+        android:layout_alignTop="@+id/startTrip_txt_RegNo"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-6dp"
+        android:ems="10"
+        android:hint="@string/registrationNo_pl"
+        android:inputType="textPersonName" />
+
+    <ScrollView
+        android:id="@+id/vehicle_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startTrip_details_txt_RegNo"
+        android:layout_alignStart="@+id/startTrip_txt_OdometerStart"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/vehicle_brakes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_brakes"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_tyres_spare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/tyres"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_spare_tyre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_spare_tyre"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_water"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_driving_licence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_licence"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_insurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_insurance"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_lights"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_oil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_oil"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <CheckBox
+                android:id="@+id/vehicle_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:text="@string/vehicle_pressure"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/vehicle_controls"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/start_trip_btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="serif"
+                    android:text="@string/save"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+                <Button
+                    android:id="@+id/start_trip_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/start_trip_btn_save"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="serif"
+                    android:text="@string/close"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

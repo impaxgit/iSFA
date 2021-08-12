@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer_search">
+
+
+    <SearchView
+        android:id="@+id/customer_search"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:closeIcon="@drawable/cross_icon"
+        android:goIcon="@drawable/search_icon"
+        android:gravity="center"
+        android:iconifiedByDefault="false"
+        android:orientation="horizontal"
+        android:queryHint="@string/search_hint"
+        android:searchHintIcon="@drawable/search_icon"
+        android:searchIcon="@drawable/search_icon"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/visibility_off" />
+</LinearLayout>

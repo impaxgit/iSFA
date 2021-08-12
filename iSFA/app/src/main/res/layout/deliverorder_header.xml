@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/deliverOrder_txtOrderNo"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:text="@string/OrderNo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/deliverOrder_txtCustomerName"
+        android:layout_width="176dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/deliverOrder_txtOrderNo"
+        android:layout_alignEnd="@+id/deliverOrder_txtOrderNo"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:text="@string/OrderDate"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/orders_listing_img"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/expand" />
+</LinearLayout>

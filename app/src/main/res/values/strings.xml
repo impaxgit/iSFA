@@ -1,0 +1,334 @@
+<resources>
+    <string name="feedback_pl">Feedback notes&#8230;</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_type">Feedback Type</string>
+    <string name="list">List</string>
+    <string name="new_">New</string>
+    <string name="notification_id">ID</string>
+    <string name="notification_subejct">Notification Subject</string>
+    <string name="notification_content">Notification Content</string>
+    <string name="reminders">Reminders</string>
+    <string name="activities">Activities</string>
+    <string name="day_report">Day Report</string>
+    <string name="market_feedback">Market Feedback</string>
+    <string name="new_outlet">New Outlet</string>
+    <string name="trade_calls">Trade Calls</string>
+    <string name="my_reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="synchronize">Syncs</string>
+    <string name="expenses">Expenses</string>
+    <string name="performance">Performance</string>
+    <string name="day_in_trade">Day In Trade</string>
+    <string name="plan_trip">Plan My Trip</string>
+    <string name="stock_management">Manage Stock</string>
+    <string name="products">All Products</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="amount_paid">Amount Paid:</string>
+    <string name="lines">Lines</string>
+    <string name="orders">Headers</string>
+    <string name="orderlineno">OrderLine No:</string>
+    <string name="OrderLineNo">OrderLine No</string>
+    <string name="Lines">Lines</string>
+    <string name="deliveryDate">Expected Delivery Date</string>
+    <string name="deliver">Deliver</string>
+    <string name="orderno">Order No</string>
+    <string name="deliverAll">Deliver All</string>
+    <string name="Count">Count</string>
+    <string name="item">Item</string>
+    <string name="status">Status</string>
+    <string name="totalAmount">Total Amount</string>
+    <string name="receipt">Receipt No</string>
+    <string name="amountPaid">Amount Paid</string>
+    <string name="balance">Balance</string>
+    <string name="printer_settings">Printer</string>
+    <string name="notes_pl">Notes/Comment&#8230;</string>
+    <string name="clear_and_close">Clear and Close</string>
+    <string name="order_notes">Notes/Comment</string>
+    <string name="order_total">Order Total:</string>
+    <string name="line_amount">Amount</string>
+    <string name="qty_order">Qty.</string>
+    <string name="item_price">Price</string>
+    <string name="item_qty">Van Qty.</string>
+    <string name="item_name">Product</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="line_id">Line ID:</string>
+    <string name="showprosync">product sync</string>
+    <string name="showprosearchname">product search name</string>
+    <string name="showprobarcode">product barcode</string>
+    <string name="showpropackaging">product packaging</string>
+    <string name="showproprice">product price</string>
+    <string name="showprocateory">product category</string>
+    <string name="showprocost">product cost</string>
+    <string name="prosync">Sync :</string>
+    <string name="prosearchname">Search Name :</string>
+    <string name="probarcode">Barcode :</string>
+    <string name="propackaging">Packaging :</string>
+    <string name="proprice">Price :</string>
+    <string name="procategory">Category :</string>
+    <string name="procost">Cost :</string>
+    <string name="showproname">SKU Name</string>
+    <string name="showprocode">Product Code</string>
+    <string name="comment_pl">Comment&#8230;</string>
+    <string name="productcode">Product Code:</string>
+    <string name="ProductCode">Product Code</string>
+    <string name="productname">Product Name:</string>
+    <string name="ProductName">Product Name</string>
+    <string name="uom">UOM:</string>
+    <string name="UoM">UOM</string>
+    <string name="qty">QTY:</string>
+    <string name="Qty">QTY</string>
+    <string name="price">Price:</string>
+    <string name="Price">Price</string>
+    <string name="amount">Amount:</string>
+    <string name="Amount">Amount</string>
+    <string name="OrderNo">Order No:</string>
+    <string name="customerCode">Customer Code</string>
+    <string name="cost">Cost:</string>
+    <string name="Cost">Cost</string>
+    <string name="orderid">Order Id:</string>
+    <string name="customercode">Customer Code:</string>
+    <string name="orderdate">Order Date:</string>
+    <string name="OrderDate">Order Date</string>
+    <string name="productCode_prompt">Select Product Code</string>
+    <string name="productName_Mode">Select the Product Name</string>
+    <string name="uom_mode">Select the appropriate Unit of Measure</string>
+    <string name="title_activity_sales_order__lines">SalesOrder_Lines</string>
+    <string name="call_Objectives">Call Objectives</string>
+    <string name="stock_Take">Stock Take</string>
+    <string name="generate_Order">Generate Order</string>
+    <string name="deliver_order">Deliver Order</string>
+    <string name="invoicing">Invoice and Print</string>
+    <string name="payment">Payment Collection</string>
+    <string name="merchandising">Merchandising</string>
+    <string name="asset_Tracking">Asset Tracking</string>
+    <string name="complete_Call">Complete Call</string>
+    <string name="customer_activities">Activities</string>
+    <string name="customer_sign_out">Check Out</string>
+    <string name="customer_sign_in">Check In</string>
+    <string name="journey_plan">Journey Plans</string>
+    <string name="vehicle_pressure">Tyre Pressure</string>
+    <string name="vehicle_oil">Oil</string>
+    <string name="vehicle_lights">Lights</string>
+    <string name="vehicle_insurance">Vehicle Insurance</string>
+    <string name="vehicle_licence">Driving License</string>
+    <string name="vehicle_water">Water</string>
+    <string name="vehicle_spare_tyre">Spare Tyre</string>
+    <string name="tyres">Tyres</string>
+    <string name="vehicle_brakes">Vehicle Brakes</string>
+    <string name="comment">Comment</string>
+    <string name="movementMode">Movement Mode</string>
+    <string name="customer_type">Type</string>
+    <string name="customer_description_pl">Outlet Description&#8230;</string>
+    <string name="customer_description">Description</string>
+    <string name="owner_number">Owner No:</string>
+    <string name="outletName">Outlet Name</string>
+    <string name="outletname">Customer Name:</string>
+    <string name="decisionMakerName">Decision Maker</string>
+    <string name="decisionMaker">Decision Maker:</string>
+    <string name="outletType">Outlet Type</string>
+    <string name="OutletType">Outlet Type:</string>
+    <string name="last4Orders">Orders</string>
+    <string name="Orders">Orders:</string>
+    <string name="contactPersonNo">Contact Person Number</string>
+    <string name="contactPNo">Contact Number:</string>
+    <string name="contactPersonName">Contact Person Name</string>
+    <string name="contactPName">Contact Name:</string>
+    <string name="Geolocation">Location:</string>
+    <string name="search_location_here">Search location&#8230;</string>
+    <string name="all_customers">All Customer</string>
+    <string name="map">Map</string>
+    <string name="journeyPlan">Journey Plan</string>
+    <string name="version">v 1.0.0</string>
+    <string name="new_sales_lbl">New Sales Record Entry</string>
+    <string name="routes">Routes</string>
+    <string name="stockRequest">Request Stock</string>
+    <string name="reports">Report</string>
+    <string name="endTrip">End Trip</string>
+    <string name="startTrip">Start Trip</string>
+    <string name="home_notificatins">Notifications</string>
+    <string name="contact_person_info">Contact Person Info</string>
+    <string name="save">Save</string>
+    <string name="postal_address_pl">Postal Address</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="mobile_number_pl">Mobile Number&#8230;</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_pl">Email&#8230;</string>
+    <string name="owner_name_pl">Name&#8230;</string>
+    <string name="outlet_name_pl">Outlet Name&#8230;</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="owner">Owner Info</string>
+    <string name="route_lbl">Route</string>
+    <string name="choose_outlet">Choose Outlet</string>
+    <string name="outlet_type">Outlet Type</string>
+    <string name="outlet_name">Outlet Name</string>
+    <string name="new_customer">New Customer Details Entry</string>
+    <string name="location">Location:</string>
+    <string name="cont_person_name">Cont. Name:</string>
+    <string name="cont_phone">Cont. Phone:</string>
+    <string name="owner_name">Owner Name:</string>
+    <string name="outlet">Outlet Type:</string>
+    <string name="search">Search:</string>
+    <string name="route">Route:</string>
+    <string name="today">Today</string>
+    <string name="_new">New</string>
+    <string name="refresh">Data Refresh</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="logout">Logout</string>
+    <string name="change">Change</string>
+    <string name="close">Close</string>
+    <string name="confirm_password">Confirmation Password</string>
+    <string name="confirm_password_pl">Confirmation Password&#8230;</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_pl">New Password&#8230;</string>
+    <string name="current_password">Current Password</string>
+    <string name="current_password_pl">Current Password&#8230;</string>
+    <string name="credentials">Credentials</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="username">Username</string>
+    <string name="username_pl">Username&#8230;</string>
+    <string name="password">Password</string>
+    <string name="password_pl">Password&#8230;</string>
+    <string name="login">Login</string>
+    <string name="sfa">Sales Force Automation</string>
+    <string name="app_name">iSFA</string>
+    <string name="impax">Impax</string>
+    <string name="welcome_intruction">...your process automation partner</string>
+
+    <array name="outlet_type">
+        <item>Supermarket</item>
+        <item>Mall</item>
+        <item>Shop</item>
+    </array>
+    <array name="customer_type">
+        <item>Cash</item>
+        <item>Credit</item>
+    </array>
+
+    <array name="movement_arrays">
+        <item>Van</item>
+        <item>Foot</item>
+    </array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comments">Comment:</string>
+    <string name="OdometerStart">Odometer Start:</string>
+    <string name="ordermeter_pl">Odometer Start&#8230;</string>
+    <string name="reNo">Reg. Number</string>
+    <string name="registrationNo_pl">Registration Number&#8230;</string>
+    <string name="choose_movement_mode">Select Your Movement Mode</string>
+    <string name="odometerEnd">Odometer End</string>
+    <string name="OdometerEnd">Odometer End:</string>
+    <string name="end">End Trip</string>
+    <string name="StartTime">Start Time</string>
+    <string name="startTime">Start Time:</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <array name="onSite">
+        <item>YES</item>
+        <item>NO</item>
+    </array>
+    <array name="asset_condition">
+        <item>Good</item>
+        <item>Faulty</item>
+        <item>Broken</item>
+    </array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="Totals">totals</string>
+    <string name="damaged">damaged</string>
+    <string name="expired">expired</string>
+    <string name="asserName">Asset Name</string>
+    <string name="onsite">On Site</string>
+    <string name="condition">Condition</string>
+    <string name="lastservicedate">Last Service Date</string>
+    <string name="nextservicedate">Next Service Date</string>
+    <string name="reason">Reason</string>
+    <string name="onSite">Is it On Site</string>
+    <string name="stock_Totals">Stock Totals</string>
+    <string name="bin">Location</string>
+    <string name="bin_location">Pick the Stock Location</string>
+    <string name="expiredtv">Expired:</string>
+    <string name="Damaged">Damaged:</string>
+    <string name="total">Totals:</string>
+    <string name="expense_type">Expense Type</string>
+    <string name="expense_pl">Expenses notes ...</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="expense_amount">Expense Amount</string>
+    <string name="expenseDate">Date</string>
+    <string name="expense_notes">Expense Notes</string>
+    <string name="accept_reject">Accept/Reject</string>
+</resources>

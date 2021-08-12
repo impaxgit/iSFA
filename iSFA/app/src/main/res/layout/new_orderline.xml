@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".GenerateOrder">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/generateOrder_txtOrderLineNo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:text="@string/OrderNo"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/generateOrder_txtOutletName"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="60dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/OrderDate"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/generate_txtDetailsProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/productname"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:id="@+id/generate_txtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:prompt="@string/productName_Mode"
+        android:spinnerMode="dialog"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+
+    <TextView
+        android:id="@+id/generate_txtDetailsUoM"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/generate_txtDetailsProductName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/uom"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:id="@+id/generate_txtUoM"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/generate_txtProductName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:prompt="@string/uom_mode"
+        android:spinnerMode="dialog"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/generate_txtDetailsQty"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/generate_txtDetailsUoM"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/qty"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/generate_txtQty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/generate_txtProductName"
+        android:layout_alignTop="@+id/generate_txtDetailsQty"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="@string/Qty"
+        android:inputType="textPersonName|number"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/generate_txtDetailsOrderDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/generate_txtDetailsProductName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/orderdate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/generate_txtOrderDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/generate_txtQty"
+        android:layout_alignBottom="@+id/generate_txtDetailsOrderDate"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-21dp"
+        android:hint="@string/OrderDate" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/generate_btnOk"
+            android:layout_width="153dp"
+            android:layout_height="40dp"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/generate_btnCancel"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+
+</LinearLayout>

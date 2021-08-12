@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+
+    <TextView
+        android:id="@+id/customers__txt_Location"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="serif"
+        android:text="@string/route"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_Location"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="monospace"
+        android:text="@string/location"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_contactPerson"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:fontFamily="serif"
+        android:text="@string/contactPName"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_ContactPerson"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-30dp"
+        android:fontFamily="monospace"
+        android:text="@string/contactPersonName"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_ContactNo"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:fontFamily="serif"
+        android:text="@string/contactPNo"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_ContactNo"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-60dp"
+        android:fontFamily="monospace"
+        android:text="@string/contactPersonNo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_outletType"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="serif"
+        android:text="@string/OutletType"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_outletType"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-92dp"
+        android:fontFamily="monospace"
+        android:text="@string/outletType"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_decisionMaker"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="139dp"
+        android:fontFamily="serif"
+        android:text="@string/decisionMaker"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_decisionMaker"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="-123dp"
+        android:fontFamily="monospace"
+        android:text="@string/decisionMakerName"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/routes__txt_decisionMaker"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/customer_sign_in"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/impax_red"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="@string/customer_sign_in"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/customer_activities"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/impax_red"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="@string/customer_activities"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/customer_check_out"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/impax_red"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="@string/customer_sign_out"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/asset_txtNo"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/asserName"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/asset_txtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/asserName" />
+
+        <RelativeLayout
+            android:id="@+id/asset_relativelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="334dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="visible">
+
+
+
+
+            <TextView
+                android:id="@+id/asset_txtonsite"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="@string/onsite" />
+
+            <Spinner
+                android:id="@+id/asset_sponsite"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="150dp"
+                android:entries="@array/onSite" />
+
+            <TextView
+                android:id="@+id/asset_txtcondition"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_alignBottom="@+id/asset_txtonsite"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="-41dp"
+                android:gravity="center|start"
+                android:text="@string/condition" />
+
+            <Spinner
+                android:id="@+id/asset_spcondition"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/asset_sponsite"
+                android:layout_alignTop="@+id/asset_sponsite"
+                android:layout_alignBottom="@+id/asset_sponsite"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginBottom="-39dp"
+                android:entries="@array/asset_condition"
+                android:gravity="center|start"
+                android:hint="@string/condition" />
+
+            <TextView
+                android:id="@+id/asset_reason"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_alignBottom="@+id/asset_txtonsite"
+                android:layout_marginStart="-1dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="-83dp"
+                android:gravity="center|start"
+                android:text="@string/reason" />
+
+            <EditText
+                android:id="@+id/asset_spreason"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/asset_sponsite"
+                android:layout_alignTop="@+id/asset_sponsite"
+                android:layout_alignBottom="@+id/asset_sponsite"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="82dp"
+                android:layout_marginBottom="-82dp"
+                android:gravity="center|start"
+                android:hint="@string/reason"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/asset_last_servicedate"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-122dp"
+                android:gravity="center|start"
+                android:text="@string/lastservicedate" />
+
+            <TextView
+                android:id="@+id/asset_lastservicingdate"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="-258dp"
+                android:layout_marginBottom="-123dp"
+                android:gravity="center|start"
+                android:text="@string/lastservicedate" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_marginStart="-2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="-161dp"
+                android:gravity="center|start"
+                android:text="@string/nextservicedate" />
+
+
+            <EditText
+                android:id="@+id/asset_nextservicedate"
+                android:layout_width="220dp"
+                android:layout_height="43dp"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="174dp"
+                android:gravity="center|start"
+                android:hint="@string/nextservicedate" />
+
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="-204dp"
+                android:gravity="center|start"
+                android:text="@string/comments" />
+
+            <EditText
+                android:id="@+id/asset_comments"
+                android:layout_width="220dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_alignEnd="@+id/asset_txtonsite"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="-262dp"
+                android:layout_marginBottom="-218dp"
+                android:gravity="center|start"
+                android:inputType="text"
+                android:hint="@string/comment" />
+
+            <Button
+                android:id="@+id/asset_btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_above="@+id/asset_txtcondition"
+                android:layout_alignStart="@+id/asset_txtonsite"
+                android:layout_marginStart="200dp"
+                android:layout_marginBottom="-268dp"
+                android:gravity="center"
+                android:text="@string/save" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</GridLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Customer_Call_Activities_List">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/outlet_activities_ref"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/outlet_activities_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/customer_activity_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/outlet_activities_ref"
+        android:layout_alignBottom="@+id/outlet_activities_ref"
+        android:src="@drawable/ic_visibility_black_24dp"
+        app:backgroundTint="@color/white"
+        app:fabSize="normal" />
+
+</RelativeLayout>

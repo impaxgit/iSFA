@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OutletActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <CheckBox
+            android:id="@+id/outlet_chkCallObjective"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/call_Objectives" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkStockTake"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/outlet_chkCallObjective"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/stock_Take" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkGenerateOrder"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/outlet_chkCallObjective"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="1dp"
+            android:text="@string/generate_Order" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkInvoicing"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/outlet_chkCallObjective"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="126dp"
+            android:text="@string/invoicing" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkPaymentCollection"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/outlet_chkCallObjective"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginBottom="305dp"
+            android:text="@string/payment" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkMerchandising"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/outlet_chkCallObjective"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="267dp"
+            android:text="@string/merchandising" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkDeliveryOrder"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/outlet_chkCallObjective"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="238dp"
+            android:text="@string/deliver_order" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkAssetTracking"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/outlet_chkCallObjective"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="198dp"
+            android:text="@string/asset_Tracking" />
+
+        <CheckBox
+            android:id="@+id/outlet_chkCompleteCall"
+            android:layout_width="329dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/outlet_chkCallObjective"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="157dp"
+            android:text="@string/complete_Call" />
+    </RelativeLayout>
+
+</RelativeLayout>

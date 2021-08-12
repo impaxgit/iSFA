@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/stock_spproduct"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:entries="@array/product_code"/>
+
+    <TextView
+        android:id="@+id/stock_tvproductcode"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/stock_spproduct"
+        android:layout_marginStart="0dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/ProductCode"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+
+    <TextView
+        android:id="@+id/stock_tvproductname"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/stock_tvproductcode"
+        android:layout_alignTop="@+id/stock_tvproductcode"
+        android:layout_alignBottom="@+id/stock_tvproductcode"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/ProductName"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/expired" />
+
+    <EditText
+        android:id="@+id/stock_txt_expired"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_alignEnd="@+id/stock_spproduct"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="@string/expired"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="131dp"
+        android:text="@string/damaged" />
+
+    <EditText
+        android:id="@+id/stock_txt_damaged"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/stock_txt_expired"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:hint="@string/damaged"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/Totals" />
+
+    <EditText
+        android:id="@+id/stock_txt_totals"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/stock_txt_expired"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:hint="@string/Totals"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/comments" />
+
+    <EditText
+        android:id="@+id/stock_txt_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/stock_txt_totals"
+        android:layout_alignStart="@+id/stock_txt_expired"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/comment"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/stock_btnSave"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginBottom="163dp"
+        android:text="@string/save" />
+</RelativeLayout>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="@string/new_customer"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:typeface="monospace" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/route_lbl" />
+
+                    <Spinner
+                        android:id="@+id/new_customer_rote"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:spinnerMode="dialog" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/outlet_name" />
+
+                    <EditText
+                        android:id="@+id/customer_new_outletname"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="@string/outlet_name_pl"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/outlet_type" />
+
+                    <Spinner
+                        android:id="@+id/customer_new_outlet_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:entries="@array/outlet_type"
+                        android:prompt="@string/choose_outlet"
+                        android:spinnerMode="dialog" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/customer_description" />
+
+                    <EditText
+                        android:id="@+id/new_customer_txt_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="@string/customer_description_pl"
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="monospace" />
+
+
+                    <TextView
+                        android:id="@+id/tvtype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/customer_type" />
+
+                    <Spinner
+                        android:id="@+id/new_customer_outlet_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:entries="@array/customer_type" />
+
+                    <TextView
+                        android:id="@+id/tvemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/email" />
+
+                    <EditText
+                        android:id="@+id/new_customer_email_business"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:fontFamily="serif"
+                        android:hint="@string/email_pl"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/tvowneremail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/mobile_number" />
+
+                    <EditText
+                        android:id="@+id/new_customer_business_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:fontFamily="serif"
+                        android:hint="@string/mobile_number_pl"
+                        android:inputType="phone"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorPrimary"
+                        android:enabled="false"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="center"
+                        android:text="@string/owner"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/name" />
+
+                    <EditText
+                        android:id="@+id/new_customer_owner_namw"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="@string/owner_name_pl"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/email" />
+
+                    <EditText
+                        android:id="@+id/new_customer_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/email_pl"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/mobile_number" />
+
+                    <EditText
+                        android:id="@+id/new_customer_mobile_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/mobile_number_pl"
+                        android:inputType="phone"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/postal_address" />
+
+                    <EditText
+                        android:id="@+id/new_customer_postal_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/postal_address_pl"
+                        android:inputType="textPostalAddress"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/colorPrimary"
+                        android:enabled="false"
+                        android:fontFamily="serif-monospace"
+                        android:text="@string/contact_person_info"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/name" />
+
+                    <EditText
+                        android:id="@+id/new_customer_contact_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:hint="@string/owner_name_pl"
+                        android:inputType="textPersonName"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/email" />
+
+                    <EditText
+                        android:id="@+id/new_customer_contact_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="serif"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/mobile_number" />
+
+                    <EditText
+                        android:id="@+id/new_customer_contact_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:inputType="phone"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp">
+
+                        <Button
+                            android:id="@+id/new_customer_save_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/save"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="18sp"
+                            android:textStyle="normal|bold"
+                            android:typeface="serif" />
+
+                        <Button
+                            android:id="@+id/new_customer_close_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:background="@color/colorPrimaryDark"
+                            android:text="@string/close"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="18sp"
+                            android:textStyle="normal|bold"
+                            android:typeface="serif" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+</LinearLayout>

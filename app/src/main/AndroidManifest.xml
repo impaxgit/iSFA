@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pauldavies.isfa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AcceptReject_Stock"></activity>
+        <activity android:name=".Expense_Management" />
+        <activity android:name=".Customer_Asset_Tracking" />
+        <activity android:name=".Customer_StockTake" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCm7prEWzM02oPrpAr1auVQf7XZO5_u-1g" />
+
+        <activity
+            android:name=".Launcher"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClientScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".GenerateOrder" />
+        <activity android:name=".SalesOrder_Lines" />
+        <activity android:name=".Login" />
+        <activity android:name=".Home" />
+        <activity android:name=".CustomerList" />
+        <activity android:name=".TripManagement" />
+        <activity android:name=".JourneyPlan" />
+        <activity android:name=".DayInTrade" />
+        <activity android:name=".OutletActivity" />
+        <activity android:name=".ProductList" />
+        <activity android:name=".CustomerCheckInActivities" />
+        <activity android:name=".GenerateCustomerOrder" />
+        <activity android:name=".DeliverOrder" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pauldavies.isfa.Home" />
+        </activity>
+        <activity android:name=".SettingsCustom" />
+        <activity android:name=".SavedSalesOrderInvoiceAndPrint" />
+        <activity android:name=".CustomerOrderDelivery" />
+        <activity android:name=".OutletActivities" />
+        <activity android:name=".Notification" />
+        <activity android:name=".NewOutlet" />
+        <activity android:name=".MarketFeedback" />
+    </application>
+
+</manifest>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".GenerateOrder">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/generateOrder_txtOrderLineNo"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:gravity="center_vertical"
+            android:text="@string/line_id"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/generateOrder_txtOrderLineNo"
+            android:layout_width="249dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="125dp"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="@string/OrderNo"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/generate_txtDetailsProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/productname"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:id="@+id/generate_txtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:prompt="@string/productName_Mode"
+        android:spinnerMode="dialog"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+
+    <TextView
+        android:id="@+id/generate_txtDetailsUoM"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/generate_txtDetailsProductName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/UoM"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:id="@+id/generate_txtUoM"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/generate_txtProductName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:prompt="@string/uom_mode"
+        android:spinnerMode="dialog"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/generate_txtDetailsQty"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/generate_txtDetailsUoM"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Qty"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/generate_txtQty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/generate_txtProductName"
+        android:layout_alignTop="@+id/generate_txtDetailsQty"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="@string/Qty"
+        android:inputType="textPersonName|number"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/generate_btnOk"
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:text="@string/save"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/generate_btnCancel"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:text="@string/close"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+
+</LinearLayout>

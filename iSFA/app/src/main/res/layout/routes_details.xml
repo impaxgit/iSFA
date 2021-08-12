@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+
+    <TextView
+        android:id="@+id/customers__txt_Location"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="serif"
+        android:text="@string/route"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_Location"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="monospace"
+        android:text="@string/location"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_contactPerson"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:fontFamily="serif"
+        android:text="@string/contactPName"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_ContactPerson"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-30dp"
+        android:fontFamily="monospace"
+        android:text="@string/contactPersonName"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_ContactNo"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:fontFamily="serif"
+        android:text="@string/contactPNo"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_ContactNo"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-60dp"
+        android:fontFamily="monospace"
+        android:text="@string/contactPersonNo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_Orders"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:fontFamily="serif"
+        android:text="@string/Orders"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_Orders"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-90dp"
+        android:fontFamily="monospace"
+        android:text="@string/last4Orders"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_outletType"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:fontFamily="serif"
+        android:text="@string/OutletType"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_outletType"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-122dp"
+        android:fontFamily="monospace"
+        android:text="@string/outletType"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/routes__txt_decisionMaker"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="171dp"
+        android:fontFamily="serif"
+        android:text="@string/decisionMaker"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/routes_details_txt_decisionMaker"
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/customers__txt_Location"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="-155dp"
+        android:fontFamily="monospace"
+        android:text="@string/decisionMakerName"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+</RelativeLayout>

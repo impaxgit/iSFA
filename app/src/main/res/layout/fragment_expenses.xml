@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/expense_tv_type"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="@string/expense_type" />
+
+            <TextView
+                android:id="@+id/expense_tv_date"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="@string/expenseDate" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/expenses_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:visibility="visible">
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="top"
+                android:text="@string/expense_amount"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/expense_tv_amount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="150dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="@string/expense_amount" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="top"
+                android:text="@string/expense_notes"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/expense_tv_notes"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="@string/expense_notes" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</GridLayout>
